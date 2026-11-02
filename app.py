@@ -9,7 +9,7 @@ Original file is located at
 
 !unzip -q AX7_SOC_synthetic_chip_test_dataset.zip -d data
 
-!python 01_data_foundation.py --data data --out clean
+#!python 01_data_foundation.py --data data --out clean
 
 !python 02_excursion_detector.py --clean clean --fig figures
 
