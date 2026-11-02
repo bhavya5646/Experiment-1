@@ -11,14 +11,14 @@ Original file is located at
 
 #!python 01_data_foundation.py --data data --out clean
 
-!python 02_excursion_detector.py --clean clean --fig figures
+#!python 02_excursion_detector.py --clean clean --fig figures
 
 from IPython.display import Image, display
 for f in ["yield_ewma", "vt_ewma", "vmin_fmax_ewma"]:
        display(Image(f"figures/{f}.png"))
 
-!python 03_root_cause.py --clean clean --data data
+#!python 03_root_cause.py --clean clean --data data
 
-!python 04_outlier_screening.py --clean clean --data data
+#!python 04_outlier_screening.py --clean clean --data data
 
-!python 05_test_time_optimizer.py --clean clean --data data --budget_ppm 10
+#!python 05_test_time_optimizer.py --clean clean --data data --budget_ppm 10
