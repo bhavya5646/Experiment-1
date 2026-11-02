@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1AmaaxyQrJ3DL1I2lCK-ShxEMw2wRQG1n
 """
 
-!unzip -q AX7_SOC_synthetic_chip_test_dataset.zip -d data
+#!unzip -q AX7_SOC_synthetic_chip_test_dataset.zip -d data
 
 #!python 01_data_foundation.py --data data --out clean
 
