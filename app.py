@@ -13,9 +13,10 @@ Original file is located at
 
 #!python 02_excursion_detector.py --clean clean --fig figures
 
-from IPython.display import Image, display
+#from IPython.display import Image, display
 for f in ["yield_ewma", "vt_ewma", "vmin_fmax_ewma"]:
-       display(Image(f"figures/{f}.png"))
+       import streamlit as st
+        st.image('filename.png')
 
 #!python 03_root_cause.py --clean clean --data data
 
