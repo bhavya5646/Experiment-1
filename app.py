@@ -15,8 +15,8 @@ Original file is located at
 
 #from IPython.display import Image, display
 for f in ["yield_ewma", "vt_ewma", "vmin_fmax_ewma"]:
-       import streamlit as st
-        st.image('filename.png')
+import streamlit as st
+st.image('filename.png')
 
 #!python 03_root_cause.py --clean clean --data data
 
